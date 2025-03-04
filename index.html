@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sheets Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Your Google Sheet</h1>
+        <iframe id="googleSheet" width="100%" height="80vh"></iframe>
+    </div>
+
+    <!-- Chatbot UI -->
+    <!-- Chatbot UI -->
+<div class="chat-container" id="chatContainer">
+    <div class="chat-header" id="chatHeader">Drag Me</div>
+    <div id="chatbox"></div>
+    <input type="text" id="userInput" placeholder="Ask me anything..." />
+    <button onclick="sendMessage()">Send</button>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
